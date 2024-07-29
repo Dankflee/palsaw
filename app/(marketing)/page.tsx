@@ -1,4 +1,7 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { Medal } from "lucide-react";
+
 
 const MarketingPage =() => {
     return(
@@ -9,12 +12,20 @@ const MarketingPage =() => {
                     No 1 Task management 
                 </div>
                 <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6 ">
-                    Taskify help team move
+                    PALSAW help teams move 
                 </h1>
                 <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-rose-600 text-white px-4 p-2 rounded-md pb-4 w-fit">
                     work forward
                 </div>
             </div>
+            <div className="test-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto">
+                Collaborate, manage projects and reach new productivity peaks.From high rises to the home office the your team works is unique - Do it all with PALSAW .
+            </div>
+            <Button>
+                <Link href="/sign-up">
+                    Get PALSAW for free !!
+                </Link>
+            </Button>
         </div>
     );
 };
