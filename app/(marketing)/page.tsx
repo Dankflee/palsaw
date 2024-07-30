@@ -19,7 +19,7 @@ const MarketingPage =() => {
                 </div>
             </div>
             <div className="test-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto">
-                Collaborate, manage projects and reach new productivity peaks.From high rises to the home office the your team works is unique - Do it all with PALSAW .
+                Collaborate, manage projects and reach new productivity peaks.From high rises to the home office the way your team works is unique - Do it all with PALSAW .
             </div>
             <Button>
                 <Link href="/sign-up">
