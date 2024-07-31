@@ -1,5 +1,5 @@
-import {Logo} from "@/components/logo"
-import { Link } from "lucide-react";
+import {Logo} from "@/components/logo";
+import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 
 export const Navbar = () => {
@@ -9,15 +9,13 @@ export const Navbar = () => {
                 <Logo />
                 <div className="space-x-4 md:block md:w-auto flex items-center justify-between w-full">
                     <Button size="sm" variant="outline" asChild>
-                        <a>
-                            <Link href="/sign-in">
-                                Login
-                            </Link>
-                        </a>
+                        <Link href="/sign-in">
+                            Login
+                        </Link>
                     </Button>
                     <Button size="sm" asChild>
-                        <Link href="/sign-up" >
-                            <a>Get PALSAW For Free</a>
+                        <Link href="/sign-up">
+                            Get PALSAW For Free
                         </Link>
                     </Button>
                 </div>
