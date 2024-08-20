@@ -23,7 +23,7 @@ export const Navbar = () => {
 
             <div className="ml-auto flex items-center gap-x-2">
             <div>                
-                <Button size="sm" className="rounded-sm flex items-center justify-between bg-white transition-colors h-auto py-1.5 px-2 ">
+                <Button size="sm" className="rounded-sm flex items-center justify-between bg-white py-1.5 px-2 ">
                     <ChatLogo />
                 </Button>
             </div>
