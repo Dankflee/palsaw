@@ -10,3 +10,6 @@ export const config = {
     '/(api|trpc)(.*)',
   ],
 };
+
+
+// here in we take the setup of middleware and construct a static loose structure to usee for dashboard
