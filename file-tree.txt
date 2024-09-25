@@ -1,0 +1,13 @@
+->app {BASE}
+->components {BASE}
+
+-[app]-> (marketing)  {To organize routes without affecting the URL}
+-> layout
+-> page
+--> _components {folder is a private implementation detail and should not be considered by the routing system}
+-> footer
+-> navbar
+
+
+-[app]-> (platform)   {To organize routes without affecting the URL}
+
